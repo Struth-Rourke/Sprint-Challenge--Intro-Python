@@ -39,6 +39,10 @@ print("\n")
 # whose name starts with any letter between 'C' and 'G' inclusive.
 print("Starts between C and G, inclusive:")
 c = [h.name for h in humans if h.name[0] in list(map(chr, range(67,72)))]
+
+# x = list(map(chr, range(67,72)))
+# print(x)
+
 print(c)
 print("\n")
 
